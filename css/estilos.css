@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-size: auto 100vh;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+a {
+	color:rgba(110,110,110,1.00);
+	text-decoration: none;
+}
+
+a:hover {
+	color:rgba(110,193,177,1.00);
+	font-weight: 700;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.site-title {
+	color:rgba(18,102,138,1.00);
+	text-align: center;
+}
+
+.site-subtitle{
+	color:rgba(110,193,177,1.00);
+	text-align: center;
+}
